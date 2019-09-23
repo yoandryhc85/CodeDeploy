@@ -4,13 +4,13 @@ hooks:
   BeforeInstall:
     - location: scripts/login_pull.sh
       timeout: 60
-      runas: ec2-user
+      runas: ubuntu
   AfterInstall:
     - location: scripts/stop_containers.sh
       timeout: 60
-      runas: ec2-user
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/run.sh
       timeout: 300
-      runas: ec2-user
+      runas: ubuntu
 
