@@ -1,5 +1,5 @@
 #!/bin/bash
-### variables
+###### variables
 ECR_URL="980422662115.dkr.ecr.us-west-1.amazonaws.com/web-instride:latest" 
 Container_Name="WebInstrideContainer"
  
